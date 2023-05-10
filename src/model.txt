@@ -1,0 +1,38 @@
+car details
+Make: string
+Model: string
+capacity: number
+Year of manufacture: string
+Vehicle condition: string
+Pricing: number
+plan: Plan
+Type: string
+Availability: boolean
+Location: string
+Rental history: string
+registration number: string
+Rate: number
+max duration
+description
+t&cs
+
+
+user details
+passport picture: Image
+Name: string
+Age: string
+number: string
+email: string
+place of residence: String
+drivers license/Ghana card: Image
+Insurance information: Image*
+Reservations: [Reservations]
+
+Reservation details
+start date
+end dated
+duration
+destination
+userId
+accepted
+

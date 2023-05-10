@@ -1,0 +1,65 @@
+{
+  "name": "car-rental-system-api",
+  "version": "1.0.0",
+  "description": " Backend for the car rental system",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon src/server.ts",
+    "test": "jest",
+    "test-watch": "jest  --watchAll --detectOpenHandles",
+    "test-coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bra-alex/car-rental-system-api.git"
+  },
+  "author": "Alexander Asiamah Boakye",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bra-alex/car-rental-system-api/issues"
+  },
+  "homepage": "https://github.com/bra-alex/car-rental-system-api#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "config": "^3.3.9",
+    "dayjs": "^1.11.7",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "fluent-ffmpeg": "^2.1.2",
+    "imagemin": "^7.0.1",
+    "imagemin-mozjpeg": "^9.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^7.0.3",
+    "multer": "^1.4.5-lts.1",
+    "pino": "^8.11.0",
+    "pino-pretty": "^10.0.0",
+    "uuid": "^9.0.0",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/config": "^3.3.0",
+    "@types/express": "^4.17.17",
+    "@types/fluent-ffmpeg": "^2.1.21",
+    "@types/imagemin": "^8.0.1",
+    "@types/imagemin-mozjpeg": "^8.0.1",
+    "@types/jest": "^29.5.1",
+    "@types/jsonwebtoken": "^9.0.1",
+    "@types/lodash": "^4.14.194",
+    "@types/multer": "^1.4.7",
+    "@types/node": "^18.15.11",
+    "@types/supertest": "^2.0.12",
+    "@types/uuid": "^9.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
+    "eslint": "^8.36.0",
+    "jest": "^29.5.0",
+    "mongodb-memory-server": "^8.12.2",
+    "nodemon": "^2.0.22",
+    "supertest": "^6.3.3",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
